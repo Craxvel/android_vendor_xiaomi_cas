@@ -362,6 +362,7 @@ PRODUCT_PACKAGES += \
     com.qti.chi.override \
     fingerprint.goodix_fod.default \
     vendor.qti.hardware.sensorscalibrate@1.0-impl \
+    libFaceDetLmd \
     libHalSuperSensorServer \
     libMIAIHDRhvx_interface \
     libSNPE \
@@ -426,6 +427,8 @@ PRODUCT_PACKAGES += \
     libhdrdynamicootf \
     libipebpsstriping \
     libmiStereoFactoryRemapLib \
+    libmiai_deblur \
+    libmiai_portraitsupernight \
     libmialgo_ie_capture \
     libmialgo_ie_preview \
     libmialgo_image_colourkeeping \
@@ -445,6 +448,7 @@ PRODUCT_PACKAGES += \
     libmiphone_bokeh_rectify \
     libmmcamera_faceproc \
     libmmcamera_faceproc2 \
+    libmorpho_HDSR \
     libmpbase \
     libmulticam_optical_zoom_control \
     libmulticam_video_optical_zoom \
@@ -473,6 +477,7 @@ PRODUCT_PACKAGES += \
     libsnsdiaglog \
     libssc \
     libssc_default_listener \
+    libsupermoon \
     libswregistrationalgo \
     libswvdec \
     libsymphony-cpu \
@@ -485,6 +490,7 @@ PRODUCT_PACKAGES += \
     libvideofilter_only \
     libvideooptfeature \
     libvidhance \
+    libwa_opticalzoom_fusion \
     libwa_sat \
     libxmi_high_dynamic_range \
     sensors.elliptic \

@@ -1981,6 +1981,23 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+	name: "libFaceDetLmd",
+	owner: "xiaomi",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libFaceDetLmd.so"],
+			shared_libs: ["liblog", "libm", "libdl", "libc", ],
+		},
+	},
+	compile_multilib: "64",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
 	name: "libHalSuperSensorServer",
 	owner: "xiaomi",
 	strip: {
@@ -3075,6 +3092,40 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+	name: "libmiai_deblur",
+	owner: "xiaomi",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libmiai_deblur.so"],
+			shared_libs: ["libSNPE", "libz", "libdl", "libm", "liblog", "libc", ],
+		},
+	},
+	compile_multilib: "64",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libmiai_portraitsupernight",
+	owner: "xiaomi",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libmiai_portraitsupernight.so"],
+			shared_libs: ["libm", "liblog", "libz", "libOpenCL", "libc", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
 	name: "libmialgo_ie_capture",
 	owner: "xiaomi",
 	strip: {
@@ -3392,6 +3443,23 @@ cc_prebuilt_library_shared {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libmmcamera_faceproc2.so"],
 			shared_libs: ["libc++", "libdl", "libc", "libm", ],
+		},
+	},
+	compile_multilib: "64",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libmorpho_HDSR",
+	owner: "xiaomi",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libmorpho_HDSR.so"],
+			shared_libs: ["liblog", "libc", "libdl", "libEGL", "libm", ],
 		},
 	},
 	compile_multilib: "64",
@@ -3876,6 +3944,23 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+	name: "libsupermoon",
+	owner: "xiaomi",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libsupermoon.so"],
+			shared_libs: ["libSNPE", "libc++_shared", "libc", "libm", "libdl", "libz", "liblog", ],
+		},
+	},
+	compile_multilib: "64",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
 	name: "libswregistrationalgo",
 	owner: "xiaomi",
 	strip: {
@@ -4072,6 +4157,23 @@ cc_prebuilt_library_shared {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libvidhance.so"],
 			shared_libs: ["libGLESv3", "libEGL", "libGLESv2", "libdl", "libm", "liblog", "libc++", "libc", ],
+		},
+	},
+	compile_multilib: "64",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libwa_opticalzoom_fusion",
+	owner: "xiaomi",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libwa_opticalzoom_fusion.so"],
+			shared_libs: ["libmiStereoFactoryRemapLib", "libz", "libdl", "libm", "liblog", "libc", ],
 		},
 	},
 	compile_multilib: "64",
