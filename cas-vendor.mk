@@ -363,7 +363,6 @@ PRODUCT_PACKAGES += \
     fingerprint.goodix_fod.default \
     vendor.qti.hardware.sensorscalibrate@1.0-impl \
     libHalSuperSensorServer \
-    libI420colorconvert \
     libMIAIHDRhvx_interface \
     libSNPE \
     libSuperSensor \
